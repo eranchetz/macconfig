@@ -1,0 +1,14 @@
+[user]
+	name = Eran Chetzroni
+	email = eran@streamrail.com
+[help]
+	autocorrect = 20
+[push]
+	default = simple
+[core]
+	editor = /usr/bin/vim
+[alias]
+    co = checkout
+    ec = config --global -e
+    cb = checkout -b
+    lg = !git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
